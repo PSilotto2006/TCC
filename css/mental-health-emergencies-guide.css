@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #02849b, #5db637);
+    color: #333;
+}
+
+.block {
+    background: linear-gradient(to right, #ffffff, #00ccff);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 150%; /* Diminui o tamanho do <h1> em 10% */
+}
+
+p {
+    margin: 30px;
+}
+
+li {
+    font-size: 130%; /* Aumenta o tamanho do <li> em 30% */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #3d7923;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #02849b, #5db637);
+}

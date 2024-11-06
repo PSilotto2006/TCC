@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Fundo em degradê */
+    font-size: 16px;
+    color: #000;
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    font-size: 2.35em; /* Aumenta o tamanho da letra em 50% (1.5 * 1.5em = 2.25em) */
+    margin-top: 20px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.7em; /* Aumenta o tamanho da letra dos subtítulos */
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 1em; /* Tamanho normal da fonte */
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 600px; /* Limita a largura da lista */
+    margin: 0 auto; /* Centraliza a lista */
+}
+
+div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+
+.button {
+    display: block; /* Necessário para usar margin: auto */
+    margin: 0 auto; /* Centraliza o botão */
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #3d7923;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Garante que o texto dentro do botão também fique centralizado */
+}
+
+  
+  .button:hover {
+    background: linear-gradient(to right, #02849b, #5db637);
+  }
+
